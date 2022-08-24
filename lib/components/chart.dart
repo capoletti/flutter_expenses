@@ -42,7 +42,7 @@ class Chart extends StatelessWidget {
     groupedTransactions;
     return Card(
       elevation: 6,
-      margin: const EdgeInsets.all(20),
+      margin: const EdgeInsets.only(top: 10, left: 20, right: 20),
       child: Padding(
         padding: const EdgeInsets.all(10.0),
         child: Row(
